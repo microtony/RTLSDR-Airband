@@ -15,7 +15,7 @@ C = rtl_airband.cpp hello_fft/mailbox.c hello_fft/gpu_fft.c hello_fft/gpu_fft_tw
 
 B = rtl_airband
 
-F = -fpermissive -O3 -mcpu=arm1176jzf-s -mtune=arm1176jzf-s -march=armv6zk -mfpu=vfp -lrt -lm -lvorbisenc -lmp3lame -lshout -lpthread -lrtlsdr -o $(B)
+F = -O3 -mcpu=arm1176jzf-s -mtune=arm1176jzf-s -march=armv6zk -mfpu=vfp -lrt -lm -lvorbisenc -lmp3lame -lshout -lpthread -lrtlsdr -o $(B)
 
 $(B):	$(H) $(C) $(S)
 	as -o rtl_airband_asm.o $(S)
