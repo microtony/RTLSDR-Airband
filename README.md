@@ -3,6 +3,9 @@ RTLSDR-Airband
 
 RTLSDR Airband is intended for Airband reception and online streaming to services such as liveatc.net
 
+<b color="red">Very Important: 
+This origin is not actively maintained. ![szpajder's fork](https://github.com/szpajder/RTLSDR-Airband) is recommended (and required for Raspberry Pi 2)</b>
+
 Features
 ---------------------
  * Decode up to eight AM channels per dongle (within bandwidth frequency range)
