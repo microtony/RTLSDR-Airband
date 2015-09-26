@@ -11,7 +11,7 @@ H = hello_fft/hex/shader_1k.hex \
 
 S = rtl_airband_asm.s
 
-C = rtl_airband.cpp hello_fft/mailbox.c hello_fft/gpu_fft.c hello_fft/gpu_fft_twiddles.c hello_fft/gpu_fft_shaders.c
+C = rtl_airband.cpp hello_fft/mailbox.c hello_fft/gpu_fft.c hello_fft/gpu_fft_twiddles.c hello_fft/gpu_fft_shaders.c hello_fft/gpu_fft_base.c
 
 B = rtl_airband
 
